@@ -28,8 +28,8 @@ root@python_pycharm $
 ```
 # python2.7 설치
 $ apt-get update
-$ apt-get install python2.7
-$ apt-get install python-pip python-dev python-setuptools libpq-dev
+$ apt-get -y install python2.7
+$ apt-get -y install gcc python-pip python-dev python-setuptools libpq-dev libgmp3-dev
 
 # venv
 $ apt-get python3-pip
