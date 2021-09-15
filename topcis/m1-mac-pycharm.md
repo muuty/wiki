@@ -23,12 +23,22 @@ root@python_pycharm $
 ```
 
 
-### 2. python2.7 설치
+### 2. python2.7 설치 및 venv 설치
 
 ```
+# python2.7 설치
 $ apt-get update
 $ apt-get install python2.7
-$ apt-get install python-pip python-dev python-setuptools
+$ apt-get install python-pip python-dev python-setuptools libpq-dev
+
+# venv
+$ apt-get python3-pip
+$ pip3 install --upgrade pip3==20.2.1
+$ pip3 install virtualenv pbr
+$ virtualenv buzzad
+$ source buzzad/bin/activate
+
+
 ```
 
 ### 3. Pycharm에 세팅하기
@@ -36,3 +46,5 @@ $ apt-get install python-pip python-dev python-setuptools
 1. Preference - Project - Python Intepreter에서 Add 클릭, ssh interpreter를 클릭해서 인터프리터를 설정해준다. usr/bin/python을 그대로 사용하면 된다.
 
 2. Preference - Tools - ssh configuration 에서 + 버튼을 눌러서 ssh 설정을 추가해준다. 
+
+
