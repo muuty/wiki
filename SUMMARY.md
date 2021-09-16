@@ -10,5 +10,4 @@
 
 * [M1 Mac Pycharm 설정 방법](topcis/m1-mac-pycharm.md)
 * [Untitled](topcis/untitled-1.md)
-* [Untitled](topcis/untitled.md)
 
