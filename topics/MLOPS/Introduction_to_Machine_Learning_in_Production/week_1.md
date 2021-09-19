@@ -29,7 +29,7 @@
 
 
 ### Deployment
-![](2021-09-19-10-12-05.png)
+![](images/2021-09-19-10-12-05.png)
 
 - Shadow mode deployment
     - 기존 기능을 그대로 유지하면서 모델을 배포하는 것

@@ -7,6 +7,10 @@
 * [2021.9](daily/2021.9.md)
 
 ## topics <a id="topics"></a>
+* [MLOPS](topics/MLOPS/README.md)
+  * [Introduction to Machine Learning in Production](topics/MLOPS/Introduction_to_Machine_in_Learning_Production/README.md)
+    * [week1](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_1.md)
+    * [week2](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_2.md)
 * [도메인 주도 개발](topics/domain-driven-design/README.md)
   * [1장](topics/domain-driven-design/1장.md)
 * [M1 Mac Pycharm 설정 방법](topics/m1-mac-pycharm.md)
