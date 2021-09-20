@@ -42,3 +42,7 @@
     - 라우터가 Green을 바라보게해서 Green이 작동하도록 한다.
     - 만약 문제가 생기면 라우터가 다시 Blue를 바라보게 해서 기존 시스템을 작동시킨다.
     - 한꺼번에 전환하지 않고 점진적으로 전환해도 된다.
+
+
+#### 참고 자료
+- [How to monitor machine learning models](https://christophergs.com/machine%20learning/2020/03/14/)
