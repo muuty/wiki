@@ -18,4 +18,5 @@
   * [2장](topics/domain-driven-design/2장.md)
   * [3-5장](topics/domain-driven-design/3장-5장.md)
   * [6장](topics/domain-driven-design/6장.md)
+  * [8장-9장](topics/domain-driven-design/8장-9장.md)
 * [M1 Mac Pycharm 설정 방법](topics/m1-mac-pycharm.md)
