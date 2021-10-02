@@ -26,6 +26,8 @@
   * [10장](topics/domain-driven-design/10장.md)
 * [가상 면접 사례로 배우는 대규모 시스템 설계 기초](topics/system-interviews/README.md)
   * [1장](topics/system-interviews/1장.md)
+  * [2장](topics/system-interviews/2장.md)
+  * [3장](topics/system-interviews/3장.md)
 * [GOF의 디자인 패턴](topics/GOF-design-pattern/README.md)
   * [1장](topics/GOF-design-pattern/1장.md)
 * [M1 Mac Pycharm 설정 방법](topics/m1-mac-pycharm.md)
