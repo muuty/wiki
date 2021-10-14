@@ -32,6 +32,7 @@
   * [5장](topics/system-interviews/5장.md)
   * [6장](topics/system-interviews/6장.md)
   * [7장](topics/system-interviews/7장.md)
+  * [8장](topics/system-interviews/8장.md)
 * [GOF의 디자인 패턴](topics/GOF-design-pattern/README.md)
   * [1장](topics/GOF-design-pattern/1장.md)
   * [2장](topics/GOF-design-pattern/2장.md)
