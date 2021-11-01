@@ -6,6 +6,7 @@
 
 * [2021.9](daily/2021.9.md)
 * [2021.10](daily/2021.10.md)
+* [2021.11](daily/2021.11.md)
 
 ## topics <a id="topics"></a>
 * [vim](topics/vim/README.md)
