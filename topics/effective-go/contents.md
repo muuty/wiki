@@ -16,3 +16,10 @@
     - 패키지가 간단한 것이면 패키지 주석도 간단하게 작성하면 된다.
 - 설명하려는 선언부의 이름으로 주석을 시작해라
     - 예시 - func Compile() : //Compile parses a regular ..
+
+## Names
+- Go에서는 이름의 첫 글자가 대문자인지 소문자인지에 따라 패키지 밖에서의 노출 여부가 정해진다.
+- 관례적으로, 패키지명은 소문자, 한 단어로만 부여하며 언더바(_)나 대소문자 혼용에 대한 필요가 없어야한다.
+- 패키지 이름을 네이밍에 활용하라. 예를 들면, bufio 패키지에 있는 버퍼 리더는 BufReader가 아닌 Reader로 불린다. bufio.Reader가 bufio.BufReader보다 명확하고 간결하기 때문이다.
+- getter 메서드에 Get은 쓰지 않는다. 예를 들면, obj.GetOwner() 대신 obj.Owner()를 쓴다.
+- 언더바를 쓰지 않고 MixedCaps 혹은 mixedCaps로 쓴다.
