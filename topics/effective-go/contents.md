@@ -34,3 +34,52 @@ if i < f()  // wrong!
     g()
 }
 ```
+
+
+## Control Structures
+- go언어에는 do나 while이 존재하지 않는다. 대신, 좀 더 일반화된 for문과 유연한 switch문이 존재한다.
+- For문은 다음 세 가지 형태로 사용할 수 있다.
+```
+// C언어와 같은 경우
+for init; condition; post { }
+
+// C언어의 while 처럼 사용
+for condition { }
+
+// C언어의 for(;;) 처럼 사용
+for { }
+```
+- if else if else를 반복하여 작성하는 것보다 switch를 사용하는 것이 더 Go 언어답다. 다음처럼 사용할 수 있다.
+```
+
+func unhex(c byte) byte {
+    switch {
+    case '0' <= c && c <= '9':
+        return c - '0'
+    case 'a' <= c && c <= 'f':
+        return c - 'a' + 10
+    case 'A' <= c && c <= 'F':
+        return c - 'A' + 10
+    }
+    return 0
+}
+```
+
+- 인터페이스 변수의 동적 타입을 사용할 때 switch를 사용할 수 있다.
+```
+
+var t interface{}
+t = functionOfSomeType()
+switch t := t.(type) {
+default:
+    fmt.Printf("unexpected type %T\n", t)     // %T prints whatever type t has
+case bool:
+    fmt.Printf("boolean %t\n", t)             // t has type bool
+case int:
+    fmt.Printf("integer %d\n", t)             // t has type int
+case *bool:
+    fmt.Printf("pointer to boolean %t\n", *t) // t has type *bool
+case *int:
+    fmt.Printf("pointer to integer %d\n", *t) // t has type *int
+}
+```
