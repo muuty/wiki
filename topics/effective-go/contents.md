@@ -83,3 +83,23 @@ case *int:
     fmt.Printf("pointer to integer %d\n", *t) // t has type *int
 }
 ```
+
+## Functions
+- Go 언어가 가지고 있는 특징 중 하나는 함수와 메소드가 여러 값을 반환 할 수 있다는 것이다.
+- 아래와 같은 형태는 지극히 일반적이다.
+```
+func (file *File) Write(b []byte) (n int, err error)
+```
+- 이름 있는 결과 (Named result parameters)를 반환하는 것이 가능하다.
+- 결과에 이름을 부여하면 코드를 더 짧고 명확하게 만들어 주며, 문서화가 된다.
+```
+func ReadFull(r Reader, buf []byte) (n int, err error) {
+    for len(buf) > 0 && err == nil {
+        var nr int
+        nr, err = r.Read(buf)
+        n += nr
+        buf = buf[nr:]
+    }
+    return
+}
+```
