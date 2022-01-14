@@ -20,6 +20,8 @@
   * [Introduction to Machine Learning in Production](topics/MLOPS/Introduction_to_Machine_in_Learning_Production/README.md)
     * [week1](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_1.md)
     * [week2](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_2.md)
+* [Design Patterns](topics/design-patterns)
+  * [observer](topics/design-patterns/observer.md)
 * [클린 아키텍처](topics/clean-architecture/README.md)
   * [[Clean Architecture] Clean Coder Blog](topics/clean-architecture/[CleanArchitecture]CleanCoderBlog.md)
   * [[Book] Clean Architecture](topics/clean-architecture/[Book]CleanArchitecture.md)
