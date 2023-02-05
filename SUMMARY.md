@@ -1,16 +1,3 @@
-# Table of contents
-
-* [README](README.md)
-
-## Daily
-
-* [2021.9](daily/2021.9.md)
-* [2021.10](daily/2021.10.md)
-* [2021.11](daily/2021.11.md)
-* [2021.12](daily/2021.12.md)
-* [2022.01](daily/2022.01.md)
-
-
 ## topics <a id="topics"></a>
 * [vim](topics/vim/README.md)
   * [내가 배운 방법](topics/vim/내가_배운_방법.md)
