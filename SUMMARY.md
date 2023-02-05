@@ -1,19 +1,24 @@
-## topics <a id="topics"></a>
+# Table of contents
+
+* [README](README.md)
+
+## topics
+
 * [vim](topics/vim/README.md)
-  * [내가 배운 방법](topics/vim/내가_배운_방법.md)
+  * [내가 배운 방법](topics/vim/내가\_배운\_방법.md)
   * [Tips](topics/vim/tips.md)
 * [Coding Interview](topics/coding-interview/README.md)
   * [REACTO process](topics/coding-interview/reacto-process.md)
 * [Effective-go](topics/effective-go/contents.md)
-* [MLOPS](topics/MLOPS/README.md)
-  * [Introduction to Machine Learning in Production](topics/MLOPS/Introduction_to_Machine_in_Learning_Production/README.md)
-    * [week1](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_1.md)
-    * [week2](topics/MLOPS/Introduction_to_Machine_Learning_in_Production/week_2.md)
-* [Design Patterns](topics/design-patterns)
+* [MLOPS](topics/mlops/README.md)
+  * [Introduction to Machine Learning in Production](topics/mlops/introduction-to-machine-learning-in-production/README.md)
+    * [week1](topics/MLOPS/Introduction\_to\_Machine\_Learning\_in\_Production/week\_1.md)
+    * [week2](topics/MLOPS/Introduction\_to\_Machine\_Learning\_in\_Production/week\_2.md)
+* [Design Patterns](topics/design-patterns/README.md)
   * [observer](topics/design-patterns/observer.md)
 * [클린 아키텍처](topics/clean-architecture/README.md)
-  * [[Clean Architecture] Clean Coder Blog](topics/clean-architecture/[CleanArchitecture]CleanCoderBlog.md)
-  * [[Book] Clean Architecture](topics/clean-architecture/[Book]CleanArchitecture.md)
+  * [\[Clean Architecture\] Clean Coder Blog](topics/clean-architecture/\[CleanArchitecture]CleanCoderBlog.md)
+  * [\[Book\] Clean Architecture](topics/clean-architecture/\[Book]CleanArchitecture.md)
 * [도메인 주도 개발](topics/domain-driven-design/README.md)
   * [1장](topics/domain-driven-design/1장.md)
   * [2장](topics/domain-driven-design/2장.md)
